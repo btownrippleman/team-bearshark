@@ -1,0 +1,14 @@
+<!DOCTYPE SUITE SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite 20160817" verbose="1">
+	<test name="Test for Loan Delivery using WebDriver">
+		<classes>
+			<class name="main.test.BorrowerTest"></class>
+			<class name="main.test.LenderTest"></class>
+			<class name="main.test.LoanTest"></class>
+			<class name="main.test.AddPoolTest"></class>
+			<class name="main.test.ViewPoolsTest"></class>
+			<class name="main.test.Create50Loans"></class>
+			<class name="main.test.AddAllLoansToAPool"></class>
+		</classes>
+	</test>
+</suite>
